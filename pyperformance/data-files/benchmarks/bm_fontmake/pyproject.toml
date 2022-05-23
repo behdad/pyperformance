@@ -1,0 +1,13 @@
+[project]
+name = "pyperformance_bm_fontmake"
+requires-python = ">=3.7"
+dependencies = [
+    "pyperf",
+     "fontmake",
+]
+urls = {repository = "https://github.com/python/pyperformance"}
+dynamic = ["version"]
+
+[tool.pyperformance]
+name = "fontmake"
+tags = "fonts"
